@@ -31,6 +31,7 @@ import java.util.Set;
 
 public class APOController {
     public static void main(String[] args) throws InvocationTargetException, IllegalAccessException {
+
         //Create a set of goods
         Set<APOPart> goods = new HashSet<>();
 
