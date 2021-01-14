@@ -1,19 +1,19 @@
-package com.demo.Model;
+package com.demo.model;
 
-public class APOPart {
+public class Part {
     //Member variables
     private String description;
     private String code;
     private double price;
 
     //Constructor
-    public APOPart(String description, String code, double price) {
+    public Part(String description, String code, double price) {
         this.description = description;
         this.code = code;
         this.price = price;
     }
 
-    //Methods
+    //Getters
     public String getDescription() {
         return description;
     }
